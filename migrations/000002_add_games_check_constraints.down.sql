@@ -1,0 +1,3 @@
+ALTER TABLE games DROP CONSTRAINT IF EXISTS games_ _check;
+ALTER TABLE games DROP CONSTRAINT IF EXISTS games_year_check;
+ALTER TABLE games DROP CONSTRAINT IF EXISTS genres_length_check;
